@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10243a">
+  <title>HYD-001 | Hydraulic Trainer</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      color: #172b42;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+    main {
+      width: 100%;
+      max-width: 480px;
+      background: white;
+      border-radius: 22px;
+      padding: 32px 24px;
+      text-align: center;
+      box-shadow: 0 12px 36px #10243a18;
+    }
+    .symbol {
+      width: 76px;
+      height: 76px;
+      margin: 0 auto 18px;
+      display: grid;
+      place-items: center;
+      background: #e0f2fe;
+      border-radius: 20px;
+      font-size: 38px;
+    }
+    h1 { margin-bottom: 8px; font-size: 27px; }
+    p { color: #5b6b7c; line-height: 1.6; }
+    a {
+      display: block;
+      padding: 15px;
+      border-radius: 12px;
+      margin-top: 14px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .primary { background: #087e8b; color: white; }
+    .secondary { background: #e8eef5; color: #172b42; }
+    .note { font-size: 13px; margin-top: 22px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="symbol">⚙️</div>
+    <h1>HYD-001 Hydraulic Trainer</h1>
+    <p>
+      Explore hydraulic components, learn circuit operation,
+      and practise hydraulic training through an interactive application.
+    </p>
+
+    <a class="primary" href="cadmech-ar://equipment">
+      Open HYD-001 App
+    </a>
+
+    <a class="secondary" href="#install"
+       onclick="document.getElementById('install').hidden = false">
+      App not installed?
+    </a>
+
+    <section id="install" hidden>
+      <h2>Install the Android App</h2>
+      <p>
+        Ask your lab instructor for the official HYD-001 APK
+        installation file. Install it, then return here and tap
+        “Open HYD-001 App”.
+      </p>
+      <!-- Add your official APK download link here when available. -->
+    </section>
+
+    <p class="note">
+      For the best experience, use an Android phone that supports
+      the app's required AR features.
+    </p>
+  </main>
+</body>
+</html>
